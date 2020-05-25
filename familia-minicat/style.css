@@ -1,0 +1,481 @@
+@font-face{
+font-family: Univers LT Std;
+src:url(UniversLTStd.woff2);
+}
+a {
+   color: unset;
+}
+a:hover {
+   color: unset;
+   text-decoration: none;
+}
+.blog-header {
+  line-height: 1;
+  background-color: transparent;
+  border-bottom: 4px solid #eabe00;
+  width: 40%;
+}
+
+.blog-header-logo {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/*
+ * Blog name and description
+ */
+.blog-title {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.blog-description {
+  font-size: 1.1rem;
+  color: #999;
+}
+
+@media (min-width: 40em) {
+  .blog-title {
+    font-size: 3.5rem;
+  }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+
+/*
+ * Footer
+ */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+
+body {
+    /*background-color: #004282;*/
+}
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.container-fluid {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.page-wrapper {
+    background-image: url(images/bg-familia-minicat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 810px;
+}
+.sotreq-logo {
+    max-width: 100%;
+    padding: 2em 1em 1em 0em;
+    width: 120px;
+}
+.logo-col {
+  padding-left: 0px;
+}
+.hero-title {
+    position: absolute;
+    color: #f7941d;
+    font-weight: bolder;
+    font-size: calc(24px + 4vw);
+    padding-left: 10vw;
+    padding-top: 1em;
+    line-height: 1.2;
+}
+
+.form-title {
+    color: #000;
+    text-align: center;
+    font-weight: bolder;
+   font-size: 1.5em;
+    }
+.cta {
+  border: 3px solid #fbbb00;
+  margin-top: 5.5rem;
+  margin-bottom: 5.5rem;
+  padding-top: 2rem;
+}
+
+
+.textbody-title {
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.textbody-title-aliadas {
+  font-weight: bold;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.btn-form {
+    background-color: #000;
+    color: #f7941d;
+    text-transform: uppercase;
+}
+.parts-title {
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: calc(16px + 2vw);
+}
+.parts-text {
+    color: #ffffff;
+    text-align: left;
+    line-height: 1;
+}
+.parts-wrapper {
+    padding: 2em 2em 2em 1em;
+}
+
+.col-md-3.blog-sidebar {
+    padding: 0;
+}
+
+
+.col-8.d-flex.justify-content-end{
+  flex-flow: column;
+}
+.text-muted {
+  display: flex;
+}
+
+.menu-phone-item {
+    display: flex;
+    justify-items: end;
+}
+
+.align-items-center {
+  align-items: end;
+}
+.col-8.d-flex.justify-content-end {
+    align-items: end;
+    padding-top: 1em;
+    padding-right: 4em;
+}
+
+.menu-icons {
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: .5em;
+}
+.menu-phone {
+    font-size: 1.3em;
+    font-weight: lighter;
+}
+.menu-ddd {
+    padding-top: .3em;
+}
+.menu-phone-container {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    padding-top: .5em;
+    padding-right: 2em;
+}
+.textbody {
+  font-family: 'Roboto', sans-serif;
+  /*text-transform: uppercase;*/
+  font-size: 20px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.textbeneficios {
+  font-family: 'Roboto', sans-serif;
+  /*text-transform: uppercase;*/
+  font-size: 20px;
+  text-align: center;
+  font-weight: lighter;
+}
+.form-wrap{
+  background-color: #fbbb00;
+}
+
+@media (max-width: 575.98px) {
+  .menu-icons {
+    width: 1em;
+    height: 1em;
+    margin-right: .1em;
+}
+  .sematech-logo {
+    max-width: 100%;
+    padding: 1em;
+    min-width: 131px;
+    max-height: 55px;
+
+}
+}
+.textbody-under {
+  padding-left: 4em !important;
+ padding-right: 4em !important;
+}
+
+
+.familia-minicat{
+    background-image: url(images/familia-minicat.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+
+.vid-bg {
+    background-image: url(images/bg-minis.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+}
+
+.footer-wrapper {
+    background-image: url(https://sotreq.s3.amazonaws.com/416f2/sotreq_landing_416_hero_bg_footer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.social-wrapper {
+  /*display: grid;*/
+  /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr;*/
+  display: flex;
+  justify-content: space-around;
+  /*font-family: UniversLTStd;*/
+   font-size: calc(5px + 1vw);
+    font-weight: bold;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+
+}
+
+.social-instagram {
+
+
+}
+.social-facebook {
+
+}
+.social-twitter {
+
+}
+.social-youtube {
+
+}
+.social-linkedin {
+
+}
+.video {
+  max-width: 600px;
+  max-height: 315px;
+}
+.img-fluid {
+  height: 100%;
+}
+@media screen and (max-width: 800px) {
+  .social-link {
+   display:none;
+  }
+  .social-wrapper {
+     font-size: calc(18px + 1vw);
+  }
+  .textbody-under {
+    padding: 0px !important;
+  }
+  .hero-cont {
+    max-width: unset !important;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.posicao-logo{
+  justify-content: center;
+}
+
+.padding-area-branca{
+  padding: 5.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+}
+
+.padding-area-minis{
+  padding: 5.5rem;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+  padding-bottom: 4em;
+}
+
+
+.padding-bg-video{
+  padding-top: 5.5rem;
+  padding-bottom: 5.5rem;
+}
+
+.tarja-amarela{
+  background-color:#fbbb00;
+  height: 50px;
+  width: 65%;
+}
+
+.linha-amarela{
+  background-color: #fbbb00;
+  height: 4px;
+  display: flex;
+  width: 65%;
+}
+
+.logo-sotreqcat{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.numero920{
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.texto-tarja{
+  padding-top: 13px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.cards-mini{
+  background-color: transparent;
+  border: 0;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+}
+
+.body-card-mini{
+  background-color: #FDB214;
+
+}
+
+.cards-responsivos{
+  display: flex;
+  margin-top: 4em;
+}
+
+.card-aliadas{
+  padding-left: 0px;
+}
+
+.container-aliadas{
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.card-img-aliadas{
+  background-color: transparent;
+  border: 0;
+  justify-content: center;
+}
+
+.padding-area-aliadas{
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+
+.bg-form {
+    background-image: url(images/bg-form.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+}
