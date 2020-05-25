@@ -158,6 +158,8 @@ body {
     max-width: 100%;
     padding: 2em 1em 1em 0em;
     width: 120px;
+    height: auto;
+    max-height: 73px;
 }
 .logo-col {
   padding-left: 0px;
@@ -193,6 +195,12 @@ body {
 }
 
 .textbody-title-lg {
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.8rem !important;
+}
+.textbody-title-sm {
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
@@ -585,10 +593,17 @@ padding-right: 1rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 810px;
+    height: 500px;
 }
 .logo-sotreqcat {
     align-items: center;
+}
+h1 {
+	font-size: 1.9em !important;
+}
+.padding-area-branca {
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 }
 
