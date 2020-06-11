@@ -26,6 +26,8 @@ body {
    margin-top: 6em;
    padding-bottom: 0.5em;
    border-bottom: 3px solid #c1c1c182;
+   display: flex;
+   flex: 1;
 }
 .navbar-light .navbar-nav .nav-link {
   color: #0cab98;
@@ -67,6 +69,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 .sindy-footer-link-wrap{
   margin-top: -0.25em;
@@ -82,3 +86,28 @@ body {
   text-transform: capitalize;
   font-size: x-small;
 }
+.small-print {
+  font-size: small;
+  text-align: center;
+}
+.desk-wrapper {
+  margin-top: 2em;
+  padding: 4em;
+}
+.desk-icons-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  margin-top: 17em;
+  padding: 1.25em;
+}
+.desk-icon {
+  width: 1.8em;
+  padding-bottom: 0.3em;
+  opacity: 0.8;
+}
+.top-container-wrapper {
+  display: flex;
+  flex-wrap: nowrap !important;
+  justify-content: space-around !important;
+ }

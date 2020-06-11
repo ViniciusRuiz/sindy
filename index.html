@@ -1,42 +1,51 @@
-<!doctype html>
+<! Doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Titulo Site</title>
-  <meta name="description" content="Descrição do site">
-  <meta name=“robots” content="index, follow">
-  <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js'></script>
-  <script src='https://code.angularjs.org/1.6.5/angular-messages.js'> </script>
-  <script src='app.js'></script>
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300, 700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-  <link rel="stylesheet" href="style.css" type="text/css" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Titulo Site</title>
+<meta name="description" content="Descrição do site">
+<meta name=“robots” content="index, follow">
+<script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js'></script>
+<script src='https://code.angularjs.org/1.6.5/angular-messages.js'> </script>
+<script src='app.js'></script>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300, 700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+<link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 <body ng-app="siteSindy">
+<div class="d-none d-lg-block" >
+     <div ng-include="'partials/shared/desk-nav.html'"></div>
+  </div>
+ <div class="d-lg-none d-sm-block d-md-block" >
+    <div ng-include="'partials/home/main-mob.html'"></div>
+  </div>
 
-    <!-- menu principal -->
-    <div ng-include="'partials/shared/navbar.html'"></div>
-    <!-- fim menu principal -->
+<main role="main" class="container">
+ <div class="d-none d-lg-block" >
+     <div ng-include="'partials/home/main-desk.html'"></div>
+  </div>
+ <div class="d-lg-none d-sm-block d-md-block" >
+    <div ng-include="'partials/home/main-mob.html'"></div>
+  </div>
+</main><!-- /.container -->
+<div class="d-none d-lg-block" >
+     <div ng-include="'partials/shared/desk-footer.html'"></div>
+  </div>
+ <div class="d-lg-none d-sm-block d-md-block" >
+    <div ng-include="'partials/home/main-mob.html'"></div>
+  </div>
 
-  <main role="main" class="container">
-    <img src="images/home/meio-home-com-frase.png" class="img-fluid" />
 
-  </main><!-- /.container -->
-
-  <!-- footer -->
-  <div ng-include="'partials/shared/footer.html'"></div>
-  <!-- fim footer -->
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+  crossorigin="anonymous"></script>
 </body>
 </html>
