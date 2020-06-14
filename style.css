@@ -1,3 +1,36 @@
+@font-face {
+  font-family: 'GothamRounded';
+  src: url('fonts/GothamRounded-Bold.otf'); /* IE9 Compat Modes */
+  src: url('fonts/GothamRounded-Bold.otf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('fonts/GothamRoundedBold_21016.ttf')  format('truetype'); 
+   font-weight: 700;
+   font-style: normal;
+ }
+
+@font-face {
+  font-family: 'GothamRounded';
+  src: url('fonts/GothamRounded-Medium.otf'); /* IE9 Compat Modes */
+  src: url('fonts/GothamRounded-Medium.otf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('fonts/GothamRoundedMedium_21022.ttf')  format('truetype'); /* Safari, Android, iOS */
+   font-weight: 400;
+   font-style: normal;
+ }
+ @font-face {
+  font-family: 'GothamRoundedBook';
+  src: url('fonts/GothamRounded-Book.otf'); /* IE9 Compat Modes */
+  src: url('fonts/GothamRounded-Book.otf') format('embedded-opentype'), /* IE6-IE8 */
+     url('fonts/GothamRoundedBook_21018.ttf')  format('truetype'); /* Safari, Android, iOS */
+   font-weight: 400;
+   font-style: normal;
+ }
+
+@font-face {
+  font-family: 'GothamRounded';
+  src: url('fonts/GothamRounded-Thin.otf'); /* IE9 Compat Modes */
+  src: url('fonts/GothamRounded-Thin.otf?#iefix') format('embedded-opentype'); /* IE6-IE8 */
+   font-weight: 300;
+   font-style: normal;
+ }
 body {
   background-image: url(images/shared/bg-roxo.png);
   background-size: cover;
@@ -38,6 +71,11 @@ body {
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
   color: #ffffff;
+}
+
+.nav-link {
+  font-family: 'GothamRounded';
+  font-weight: 400;
 }
 
 .sindy-link-wrap {
@@ -85,10 +123,13 @@ body {
   color: #ffffff;
   text-transform: capitalize;
   font-size: x-small;
+  font-family: GothamRounded;
+  font-weight: 400;
 }
 .small-print {
   font-size: small;
   text-align: center;
+  font-family: GothamRoundedBook;
 }
 .desk-wrapper {
   margin-top: 2em;
@@ -117,6 +158,23 @@ body {
     color: #ffffff;
     border-color: transparent;
 }
+
+
+.small-print {
+  /* font-size: small; */
+  font-size: xx-small;
+}
+
+.sindy-footer-wrapper {
+  padding-left: 8vw;
+  padding-right: 12vw;
+}
+
+.footer-wrapper {
+  /* height: 5em; */
+  height: 6em;
+}
+
 @media (max-width: 991.98px) {
 .navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
  justify-content: flex-end !important;
