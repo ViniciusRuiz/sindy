@@ -31,15 +31,17 @@
    font-weight: 300;
    font-style: normal;
  }
+ @font-face {
+   font-family:  'AvenirLTSHeavy';
+   src: url('fonts/AvenirLTStd-Heavy.otf');
+ }
+ html, body {
+  height: 100%;
+}
 body {
   background-image: url(images/shared/bg-roxo.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between
+  background-size: auto;
+  height: 100%;
 }
 .footer-wrapper {
   background-image: url(images/shared/verde-baixo.png);
@@ -161,7 +163,6 @@ body {
 
 
 .small-print {
-  /* font-size: small; */
   font-size: xx-small;
 }
 
@@ -171,50 +172,144 @@ body {
 }
 
 .footer-wrapper {
-  /* height: 5em; */
   height: 6em;
 }
 
-@media (max-width: 991.98px) {
-.navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
- justify-content: flex-end !important;
+
+.main-desk-img {
+  position: relative;
 }
-.mob-hero-wrapper {
- background-image: url(images/shared/verde-superior-mob.png);
+.desk-main-wrap {
+  display: flex;
+  justify-items:center;
+  background-image: url(images/home/sindy-home-desktop.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: right;
-  height: 17em;
-  display: flex;
-  flex-direction: column;
+  
 }
-.mob-nav-flex-wrapper {
+.main-text-wrap {
   display: flex;
-  justify-content: flex-end;
-}
-.mob-hero-top-content {
-  display: flex;
+  flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-between;
+ width: 100%;
+  align-items: center;
 }
-.mob-logo {
+.main-text {
   display: flex;
-  height: 100%;
+  
 }
-.mob-icons-wrapper {
-  flex: 1;
+
+
+.desk-main-wrap {
+  min-width: 100%;
+}
+
+.home-container {
+  display: flex;
+  min-height: 81vh;
+  margin-top: 5em;
+  width: 80%;
+}
+
+.main-text-wrap {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.main-text-1 {
   display: flex;
   flex-direction: column;
-  align-self: flex-end;
-  margin-top: 7em;
-  padding: 1.25em;
+  justify-content: flex-end;
+  width: 35%;
+  padding-top: 14.5em;
+  }
+.col-main-text {
+  font-family: AvenirLTSHeavy;
+  text-align: right;
+  font-size: 3em;
+  line-height: 0.8;
+  color: #fff;
+
 }
-.footer-wrapper {
-  background-image: url(images/shared/verde-inferior-mob.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: left;
-  height: 5em;
+
+
+
+
+
+
+@media (max-width: 575.98px) { ... }
+
+@media (max-width: 767.98px) { ... }
+
+@media (max-width: 991.98px) { 
+  .navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
+    justify-content: flex-end !important;
+   }
+   .mob-hero-wrapper {
+    background-image: url(images/shared/verde-superior-mob.png);
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: right;
+     height: 13em;
+     display: flex;
+     flex-direction: column;
+   }
+   .mob-nav-flex-wrapper {
+     display: flex;
+     justify-content: flex-end;
+   }
+   .mob-hero-top-content {
+     display: flex;
+     flex-wrap: nowrap;
+     justify-content: space-around;
+    }
+   .mob-logo {
+     display: flex;
+     height: 100%;
+     width: 60%;
+   }
+   .mob-icons-wrapper {
+     flex: 1;
+     display: flex;
+     flex-direction: column;
+     /* align-self: flex-end;
+     margin-top: 7em;
+     padding: 1.25em; */
+   }
+   .footer-wrapper {
+     background-image: url(images/shared/verde-inferior-mob.png);
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: left;
+     height: 5em;
+   }
+
+.main-text-1 {
+  width: 39%;
+ padding-top: 0em;
+margin-top: -14em;
 }
+
+
+.col-main-text {
+  font-size: 2.5em;
+}
+
+
+
+}
+
+
+@media (max-width: 1199.98px) {
+  .main-text-1 {
+    width: 36%;
+    padding-top: 0em;
+    margin-top: 5em;
+  }
+
+.col-main-text {
+  font-size: 2.5em;
+}
+
 
 }
