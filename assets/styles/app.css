@@ -212,10 +212,12 @@
   .mob-main-wrap {
     display: flex;
     justify-items: center;
-    background-image: url(../../images/app/app-miolo-completo.png);
+    background-image: url(../../images/app/app-mob-bg.png);
     background-size: contain;
     background-repeat: no-repeat;
     flex-direction: column;
+    margin: -25px !important;
+
   }
   .mob-main-text-wrap {
     display: flex;
@@ -238,8 +240,183 @@
     width: 100%;
     z-index: 2;
     position: relative;
+    flex-direction: column;
   }
+  .app-mob-content-wrapper {
+    height: 100%;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    min-width: 100%;
+  }
+  .app-mob-left-content {
+    display: flex;
+    width: 100%;
+  }
+  .app-mob-right-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-width: 40%;
+  }
+  .app-mob-right-first-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+  }
+  .download-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin-bottom: 1em;
+  }
+  .app-mob-right-first-row-col1 {
+    display: flex;
+    margin-right: 1em;
+  }
+  .app-mob-right-first-row-col2 {
+    display: flex;
+    margin-right: 1em;
+  }
+  .app-mob-right-first-row-col3 {
+    display: flex;
+    margin-right: 0.5em;
+    flex-direction: column;
+  }
+  .app-mob-right-first-row-col4 {
+    display: flex;
+    margin-right: 1em;
+    flex-direction: column;
+  }
+  .app-mob-right-second-row {
+  }
+  .app-mob-right-third-row {
+  }
+  .app-mob-right-fourth-row {
+  }
+  .app-mob-right-fifth-row {
+  }
+  .app-mob-right-sixth-row {
+  }
+  .app-mob-right-seventh-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 100%;
+    background-color: #6b4086;
 
+  }
+  .app-mob-download-text {
+    font-family: AvenirLTSHeavy;
+    text-align: right;
+    font-size: 3em;
+    line-height: 1;
+    color: #fff;
+  }
+  .app-mob-qr {
+    width: 4em;
+  }
+  .app-mob-apple {
+    margin-bottom: 0.5em;
+  }
+  .app-mob-google {
+  }
+  .app-mob-disponivel {
+    font-family: AvenirLTSHeavy;
+    text-align: left;
+    font-size: 0.6em;
+    line-height: 1;
+    color: #fff;
+    align-self: end;
+  }
+  .app-mob-row2 {
+    font-family: AvenirLTSLight;
+    text-align: left;
+    font-size: 1em;
+    line-height: 1;
+    color: #fff;
+    align-self: end;
+    text-transform: uppercase;
+  }
+  .app-mob-separator {
+    border-bottom: 3px solid #c1c1c182;
+    width: 60%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  .app-mob-row3 {
+    font-family: AvenirLTSHeavy;
+    text-align: left;
+    font-size: 2em;
+    line-height: 1;
+    color: #fff;
+  }
+  .app-mob-row4 {
+    font-family: AvenirLTSLight;
+    text-align: left;
+    font-size: 1em;
+    line-height: 1;
+    color: #fff;
+    align-self: end;
+    text-transform: uppercase;
+  }
+  .app-mob-row5 {
+    font-family: AvenirLTSLight;
+    text-align: left;
+    font-size: 1em;
+    line-height: 0.8;
+    color: #fff;
+    align-self: end;
+  }
+  .app-mob-row6 {
+    font-family: AvenirLTSHeavy;
+    text-align: left;
+    font-size: 2.2em;
+    line-height: 1;
+    color: #fff;
+  }
+  .row7col2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .row7col3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .app-mob-row7-col1-texto {
+    font-family: AvenirLTSHeavy;
+    text-align: right;
+    font-size: 1.2em;
+    line-height: 1;
+    color: #fff;
+    border-right: 3px solid #c1c1c182;
+    padding-right: 1em;
+  }
+  .app-mob-email {
+    font-family: AvenirLTSLight;
+    text-align: left;
+    font-size: 1;
+    line-height: 1;
+    color: #fff !important;
+    align-self: end;
+  }
+  .app-mob-telefone {
+    font-family: AvenirLTSLight;
+    text-align: left;
+    font-size: 1em;
+    line-height: 1;
+    color: #fff !important;
+    align-self: end;
+  }
  
 }
 @media (max-width: 1199.98px) {
