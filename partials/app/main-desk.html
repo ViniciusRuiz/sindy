@@ -1,16 +1,66 @@
 <div class="container home-container">
   <section class="desk-main-wrap">
-    <div class="main-text-wrap">
-      <div class="main-text main-text-1">
-       <!--  <h1 class="col-main-text">Tudo</h1>
-        <h1 class="col-main-text">que o seu</h1>
-        <h1 class="col-main-text">condomínio</h1>
-        <h1 class="col-main-text">precisa</h1>
-        <h1 class="col-main-text">em alguns</h1>
-        <h1 class="col-main-text">cliques</h1>
+    <div class="app-content-wrapper">
+      <div class="app-left-content">&nbsp;</div>
+      <div class="app-right-content">
+        <div class="app-right-first-row">
+          <div class="app-right-first-row-col1">
+              <h1 class="app-download-text" ng-bind-html="oapp.row1col1 | trustAsHtml">
+              </h1>
+          </div>
+          <div class="app-right-first-row-col2">
+            <div ng-bind-html="oapp.row1col2 | trustAsHtml"></div>
+          </div>
+          <div class="app-right-first-row-col3">
+            <a href="{{oapp.urlappstore}}">
+            <img src='images/app/app-logo-apple-store.png' class='app-apple' />
+          </a><br>
+          <a href="{{oapp.urlplaystore}}">
+            <img src='images/app/app-logo-google-play.png' class='app-google' />
+          </a>
+          </div>
+          <div class="app-right-first-row-col4">
+            <p class="app-disponivel" ng-bind-html="oapp.row1col4 | trustAsHtml"></p>
+          </div>
+        </div>
+        <div class="app-right-second-row">
+          <p class="app-row2" ng-bind-html="oapp.row2 | trustAsHtml"></p>
+        </div>
+        <div class="app-separator">&nbsp;</div>
+        <div class="app-right-third-row">
+            <p class="app-row3">{{oapp.row3}}</p>
+        </div>
+        <div class="app-right-fourth-row">
+          <p class="app-row4" ng-bind-html="oapp.row4 | trustAsHtml"></p>
+        </div>
+        <div class="app-right-fifth-row">
+          <p class="app-row5" ng-bind-html="oapp.row5 | trustAsHtml"></p>
+        </div>
+        <div class="app-right-sixth-row">
+          <p class="app-row6" ng-bind-html="oapp.row6 | trustAsHtml"></p>
+        </div>
+        <div class="app-right-seventh-row">
+            <div class="row7col1">
+              <p class="app-row7-col1-texto" ng-bind-html="oapp.row7col1 | trustAsHtml"></p>
+            </div>
+            <div class="row7col2">
+                <a class="app-email">{{oapp.row7col2email1}}</a>
+                <a class="app-email">{{oapp.row7col2email2}}</a>
+                <a class="app-email">{{oapp.row7col2email3}}</a>
+                <a class="app-email">{{oapp.row7col2email4}}</a>
+                <a class="app-email">{{oapp.row7col2email5}}</a>
+                <a class="app-email">{{oapp.row7col2email6}}</a>
+            </div>
+            <div class="row7col3">
+              <a class="app-telefone">{{oapp.row7col3tel1}}</a>
+              <a class="app-telefone">{{oapp.row7col3tel2}}</a>
+              <a class="app-telefone">{{oapp.row7col3tel3}}</a>
+              <a class="app-telefone">{{oapp.row7col3tel4}}</a>
+              <a class="app-telefone">{{oapp.row7col3tel5}}</a>
+              <a class="app-telefone">{{oapp.row7col3tel6}}</a>
+            </div>
+        </div>
       </div>
-      <div class="main-text main-text-2"></div>
-      <div class="main-text main-text-3"></div> -->
     </div>
   </section>
 </div>

@@ -1,0 +1,27 @@
+[
+    {
+        "row1col1": "Baixe<br>aqui",
+        "row1col2": "<img src='images/app/app-qr.png' class='app-qr' />",
+        "urlappstore": "http://google.com",
+        "urlplaystore": "htttp://google.com",
+        "row1col4": "DISPONÍVEL<br>PARA<br>ANDROID<br>E IOS",
+        "row2": "Baixe aqui a Sindy,<br>sua nova síndica virtual.",
+        "row3": "Suporte",
+        "row4": "como podemos<br>te ajudar?",
+        "row5": "Opções de contrato.<br>Como fazer login.<br>Pagamento.",
+        "row6": "E pra entrar em<br>contato com<br>a gente é fácil!",
+        "row7col1": "Estamos<br>sempre<br>prontos para<br>atender<br>você!",
+        "row7col2email1": "lucia.abadia@sindy.com.br", 
+        "row7col2email2": "gustavo.grigol@sindy.com.br",
+        "row7col2email3": "carolina.tosini@sindy.com.br",
+        "row7col2email4": "leticia.cavalheiro@sindy.com.br",
+        "row7col2email5": "bruno.baptistella@sindy.com.br",
+        "row7col2email6": "camila.ferrari@sindy.com.br",
+        "row7col3tel1": "(19) 99999 0077", 
+        "row7col3tel2": "(19)99305 7857",
+        "row7col3tel3": "(19) 99997 3700",
+        "row7col3tel4": "(19) 98183 0785",
+        "row7col3tel5": "+64 21 11 911 449",
+        "row7col3tel6": "+64 21 853 557"
+    }
+]
