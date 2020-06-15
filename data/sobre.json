@@ -1,6 +1,13 @@
 [
     {
         "titulo": "Sindy facilita a comunicação entre todas as áreas do seu condomínio.",
-        "subtitulo": "Uma nova tecnologia projetada para evoluir e facilitar a vida de quem mora em condomínio, com inúmeras funções:"
+        "subtitulo": "Uma nova tecnologia projetada para evoluir e facilitar a vida de quem mora em condomínio, com inúmeras funções:",
+        "slide1titulo": "Controle de acesso",
+        "slide1subtitulo1": "Morador:",
+        "slide1texto1": "reconhecimento facial e placa de carro.",
+        "slide1subtitulo2": "Visita ou prestador de serviço:",
+        "slide1texto2": "reconhecimento facial e QR Code.",
+        "slide4titulo": "Entrada e saída de forma rápida e segura",
+        "slide4texto1": "Aviso e registro de entrada e saída. Uso de reconhecimento facial e QR Code."
     }
 ]

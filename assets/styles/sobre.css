@@ -143,6 +143,8 @@ padding-left: 7em;
         z-index: 2;
         position: relative;
         flex-direction: column;
+        padding-top: 2em;
+        margin-bottom: 4em;
       }
 
       .mob-main-text-1 {
@@ -168,10 +170,10 @@ padding-left: 7em;
       .mob-carousel {
         display: flex;
         background-color:#ffffff;
-        width: 43%;
-        height: 9em;
-        padding: 1em;
-        border-radius: 91px;
+        width: 65%;
+        height: 13em;
+        padding: 1.3em;
+        border-radius: 105px;
         justify-content: center;
         margin-top: 4em;
         margin-left: 1em;
@@ -180,13 +182,15 @@ padding-left: 7em;
         display: flex;
       }
       .mob-carousel-image {
-        width: 3em;
+        width: 5em;
+        margin-bottom: 0.5em;
       }
       .carousel {
         position: relative;
         width: 100%;
         display: flex;
         justify-content: center;
+        margin-bottom: 3em;
       }
       
       .carousel.pointer-event {
@@ -199,6 +203,7 @@ padding-left: 7em;
         width: 100%;
         display: flex;
         justify-content: center;
+        overflow: visible;
       }
       
       
