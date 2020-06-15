@@ -1,6 +1,7 @@
 
 var app = angular.module("siteSindy", ["ngRoute"]);
-app.config(function($routeProvider) {
+app.config(function($routeProvider, $locationProvider) {
+	$locationProvider.hashPrefix('');
 	$routeProvider
 	  .when("/", {
 		templateUrl: "pages/home.html"
@@ -13,6 +14,9 @@ app.config(function($routeProvider) {
 	  })
 	  .when("/app", {
 		templateUrl: "pages/app.html"
+	  })
+	  .when("/parceiros", {
+		templateUrl: "pages/parceiros.html"
 	  });
   });
 
