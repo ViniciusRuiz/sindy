@@ -44,3 +44,11 @@ app.controller('OappCtrl', function($scope, $http) {
     );
   }
 );
+app.controller('ParceirosCtrl', function($scope, $http) {
+    $http.get('data/parceiros.json').then(
+      function(parceiro){
+        $scope.parceiro = sobre.parceiro[0];
+      }
+    );
+  }
+);
