@@ -1,0 +1,210 @@
+.desk-main-wrap {
+    display: flex;
+    justify-items:center;
+    background-image: url(../../images/tecnologia/tecnologia-meio-com-icones-e-frases.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+  }
+  .main-text-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   width: 100%;
+    align-items: center;
+  }
+  .main-text {
+    display: flex;
+    
+  }
+  
+  
+  .desk-main-wrap {
+    min-width: 100%;
+  }
+  
+  .home-container {
+    display: flex;
+    min-height: 81vh;
+    margin-top: 5em;
+    width: 80%;
+  }
+  
+  .main-text-wrap {
+    min-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .main-text-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 35%;
+    padding-top: 14.5em;
+    }
+  .col-main-text {
+    font-family: AvenirLTSHeavy;
+    text-align: right;
+    font-size: 3em;
+    line-height: 0.8;
+    color: #fff;
+  
+  }
+  
+  
+  @media (max-width: 991.98px) { 
+    .main-text-1 {
+        width: 39%;
+       padding-top: 0em;
+      margin-top: -14em;
+      }
+      
+      
+      .col-main-text {
+        font-size: 2.5em;
+      }
+      
+      .mob-main-wrap {
+        display: flex;
+        justify-items:center;
+        background-image: url(../../images/tecnologia/imagem-com-frase.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        flex-direction: column;
+        min-height: 25em;
+      }
+      .mob-main-text-wrap {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+       width: 100%;
+        align-items: center;
+      }
+      .main-text {
+        display: flex;
+        
+      }
+      
+      
+      .mob-main-wrap {
+        min-width: 100%;
+      }
+      
+      .mob-home-container {
+        display: flex;
+        min-height: 46em;
+        width: 100%;
+        z-index: 2;
+        position: relative;
+        flex-direction: column;
+      }
+      
+      .mob-main-text-wrap {
+        min-width: 100%;
+        display: flex;
+        justify-content: flex-start;
+      }
+      .mob-main-text-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 46%;
+        padding-top: 2em;
+        }
+      .mob-col-main-text {
+        font-family: AvenirLTSHeavy;
+        text-align: right;
+        font-size: 1.5em;
+        line-height: 0.6;
+        color: #fff;
+      }
+      .mob-carousel-wrap{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+      }
+      .mob-carousel {
+        display: flex;
+        background-color:#ffffff;
+        width: 43%;
+        height: 9em;
+        padding: 1em;
+        border-radius: 91px;
+        justify-content: center;
+        margin-top: 4em;
+        margin-left: 1em;
+      }
+      .mob-carousel-spacer {
+        display: flex;
+      }
+      .mob-carousel-image {
+        width: 3em;
+      }
+      .carousel {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      
+      .carousel.pointer-event {
+        -ms-touch-action: pan-y;
+        touch-action: pan-y
+      }
+      
+      .carousel-inner {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      
+      
+      
+      .carousel-item {
+        position: relative;
+        display: none;
+        float: none;
+        width: unset;
+        margin-right: 0px; 
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transition: -webkit-transform .6s ease-in-out;
+        transition: transform .6s ease-in-out;
+        transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
+      }
+      .carousel-control-prev-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='BlueViolet' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e");
+      }
+      .carousel-control-next-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='BlueViolet' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
+      }
+      .carousel-item-next, .carousel-item-prev, .carousel-item.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .mob-carousel-text {
+        display: flex;
+        text-align: center;
+        color: #744b9f;
+        font-family: AvenirLTSHeavy;
+        font-size: 11px;
+        padding-left: 1.2em;
+        padding-right: 1.2em;
+          line-height: 1;
+          padding-top: 0.5em;
+      }
+    }
+    @media (max-width: 1199.98px) {
+        .main-text-1 {
+          width: 36%;
+          padding-top: 0em;
+          margin-top: 5em;
+        }
+      
+      .col-main-text {
+        font-size: 2.5em;
+      }
+    }      

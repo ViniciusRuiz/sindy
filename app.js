@@ -8,8 +8,8 @@ app.config(function($routeProvider) {
 	  .when("/sobre", {
 		templateUrl: "pages/sobre.html"
 	  })
-	  .when("/three", {
-		templateUrl: "three.html"
+	  .when("/tecnologia", {
+		templateUrl: "pages/tecnologia.html"
 	  })
 	  .when("/four", {
 		templateUrl: "four.html"
