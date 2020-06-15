@@ -36,3 +36,11 @@ app.controller('TecnologiaCtrl', function($scope, $http) {
     );
   }
 );
+app.controller('OappCtrl', function($scope, $http) {
+    $http.get('data/app.json').then(
+      function(oapp){
+        $scope.oapp = sobre.oapp[0];
+      }
+    );
+  }
+);
