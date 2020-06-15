@@ -11,8 +11,8 @@ app.config(function($routeProvider) {
 	  .when("/tecnologia", {
 		templateUrl: "pages/tecnologia.html"
 	  })
-	  .when("/four", {
-		templateUrl: "four.html"
+	  .when("/app", {
+		templateUrl: "pages/app.html"
 	  });
   });
 
