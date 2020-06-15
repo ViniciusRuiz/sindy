@@ -31,7 +31,7 @@ app.config(function($routeProvider, $locationProvider) {
 app.controller('TecnologiaCtrl', function($scope, $http) {
     $http.get('data/tecnologia.json').then(
       function(tecnologia){
-        $scope.tecnologia = sobre.tecnologia[0];
+        $scope.tecnologia = tecnologia.data[0];
       }
     );
   }
@@ -39,7 +39,7 @@ app.controller('TecnologiaCtrl', function($scope, $http) {
 app.controller('OappCtrl', function($scope, $http) {
     $http.get('data/app.json').then(
       function(oapp){
-        $scope.oapp = sobre.oapp[0];
+        $scope.oapp = oapp.data[0];
       }
     );
   }
@@ -47,7 +47,7 @@ app.controller('OappCtrl', function($scope, $http) {
 app.controller('ParceirosCtrl', function($scope, $http) {
     $http.get('data/parceiros.json').then(
       function(parceiro){
-        $scope.parceiro = sobre.parceiro[0];
+        $scope.parceiro = parceiro.data[0];
       }
     );
   }
