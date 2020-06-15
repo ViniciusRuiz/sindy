@@ -1,7 +1,7 @@
 .desk-main-wrap {
     display: flex;
     justify-items:center;
-    background-image: url(../../images/sobre/desktop-sobre-meio-com-icones-e-frases.png);
+    background-image: url(../../images/sobre/desktop-sobre-meio-com-icones.png);
     background-size: contain;
     background-repeat: no-repeat;
     
@@ -10,8 +10,13 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-   width: 100%;
+   width: unset;
     align-items: center;
+    flex-direction: column;
+  }
+  .desk-sobre-icon-wrap {
+    display: flex;
+    min-width: 25em;
   }
   .main-text {
     display: flex;
@@ -31,16 +36,17 @@
   }
   
   .main-text-wrap {
-    min-width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    padding-top: 7em;
   }
   .main-text-1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    width: 35%;
-    padding-top: 14.5em;
+    width: 64%;
+    padding-top: unset;
+    padding-bottom: 3em;
     }
   .col-main-text {
     font-family: AvenirLTSHeavy;
@@ -50,24 +56,64 @@
     color: #fff;
   
   }
+  .col-subtitle-text {
+    font-family: AvenirLTSHeavy;
+    text-align: right;
+    font-size: 1em;
+    line-height: 0.8;
+    color: #fff;
+    width: 17em;
+padding-left: 7em;
+}
   
   
   @media (max-width: 991.98px) { 
+    .main-text-wrap {
+      display: flex;
+      justify-content: flex-start;
+      padding-top: 7em;
+    }
     .main-text-1 {
-        width: 39%;
-       padding-top: 0em;
-      margin-top: -14em;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      width: 64%;
+      padding-top: unset;
+      padding-bottom: 3em;
       }
       
       
       .col-main-text {
         font-size: 2.5em;
       }
+
+/* sobre.css | http://localhost:8080/assets/styles/sobre.css */
+
+.desk-sobre-icon-wrap {
+  /* min-width: 26em; */
+  min-width: 20em;
+}
+
+.main-text-wrap {
+  /* padding-top: 7em; */
+  padding-top: -2em;
+}
+
+
+
+.col-subtitle-text {
+  /* width: 17em; */
+  /* padding-left: 7em; */
+  width: 13em;
+  padding-left: 2em;
+}
+
+      
       
       .mob-main-wrap {
         display: flex;
         justify-items:center;
-        background-image: url(../../images/sobre/smartphone-frases.png);
+        background-image: url(../../images/sobre/smartphone.png);
         background-size: contain;
         background-repeat: no-repeat;
         flex-direction: column;
@@ -75,9 +121,9 @@
       }
       .mob-main-text-wrap {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: nowrap;
-       width: 100%;
+       width: 86%;
         align-items: center;
       }
       .main-text {
@@ -98,24 +144,19 @@
         position: relative;
         flex-direction: column;
       }
-      
-      .mob-main-text-wrap {
-        min-width: 100%;
-        display: flex;
-        justify-content: flex-start;
-      }
+
       .mob-main-text-1 {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        width: 46%;
-        padding-top: 2em;
+        width: 66%;
+        padding-top: 3em;
         }
       .mob-col-main-text {
         font-family: AvenirLTSHeavy;
         text-align: right;
-        font-size: 1.5em;
-        line-height: 0.6;
+        font-size: 2em;
+        line-height: 1;
         color: #fff;
       }
       .mob-carousel-wrap{
@@ -199,12 +240,16 @@
     }
     @media (max-width: 1199.98px) {
         .main-text-1 {
-          width: 36%;
+          width: 71%;
           padding-top: 0em;
-          margin-top: 5em;
+          margin-top: 0em;
         }
       
       .col-main-text {
         font-size: 2.5em;
+      }
+      .desk-sobre-icon-wrap {
+        /* min-width: 26em; */
+        min-width: 21em;
       }
     }      

@@ -20,3 +20,11 @@ app.config(function($routeProvider, $locationProvider) {
 	  });
   });
 
+  app.controller('SobreCtrl', function($scope, $http) {
+    $http.get('data/sobre.json').then(
+      function(sobre){
+        $scope.sobre = sobre.data[0];
+      }
+    );
+  }
+);
