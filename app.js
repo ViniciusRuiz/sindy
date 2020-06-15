@@ -28,3 +28,11 @@ app.config(function($routeProvider, $locationProvider) {
     );
   }
 );
+app.controller('TecnologiaCtrl', function($scope, $http) {
+    $http.get('data/tecnologia.json').then(
+      function(tecnologia){
+        $scope.tecnologia = sobre.tecnologia[0];
+      }
+    );
+  }
+);
