@@ -38,7 +38,7 @@
 .desk-tech-row2 {
   font-family: AvenirLTSHeavy;
   text-align: center;
-  font-size: 2em;
+  font-size: 2.4em;
   line-height: 0.8;
   color: #fff;
   margin-top: 3em;
@@ -120,4 +120,26 @@
   }
 }
 @media (max-width: 1199.98px) {
+
+
+.desk-tech-row1 {
+  width: 100%;
+}
+
+.desk-tech-row1-col1 {
+  width: 40%;
+}
+
+.desk-tech-row2 {
+  font-size: 2em !important;
+  margin-bottom: 0px;
+}
+
+.desk-row3-icon {
+  width: 5em;
+  height: 5em;
+}
+
+
+
 }
