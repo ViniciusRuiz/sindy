@@ -243,8 +243,8 @@ body {
      height: 5em;
    }
    .mob-footer-wrapper {
-    position: absolute;
-    margin-top: -4em;
+    position: relative;
+    /* margin-top: -4em; */
     z-index: 1;
    }
    .mob-footer-col-two {

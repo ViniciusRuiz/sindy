@@ -217,7 +217,6 @@
     background-repeat: no-repeat;
     flex-direction: column;
     margin: -25px !important;
-
   }
   .mob-main-text-wrap {
     display: flex;
@@ -238,9 +237,10 @@
     display: flex;
     min-height: 66vh;
     width: 100%;
-    z-index: 2;
+    /* z-index: 2; */
     position: relative;
     flex-direction: column;
+    height: 100%;
   }
   .app-mob-content-wrapper {
     height: 100%;
@@ -268,7 +268,7 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
   }
   .download-row {
     display: flex;
@@ -277,7 +277,7 @@
     width: 100%;
     justify-content: flex-start;
     align-items: baseline;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
   }
   .app-mob-right-first-row-col1 {
     display: flex;
@@ -310,25 +310,35 @@
   .app-mob-right-seventh-row {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    max-width: 100%;
+    min-width: 100%;
     background-color: #6b4086;
-
+    margin-left: -30px;
+    margin-right: -30px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1.5em;
+    padding-left: 0.5em;
+    justify-content: space-between;
+    padding-right: 0.5em;
   }
   .app-mob-download-text {
     font-family: AvenirLTSHeavy;
     text-align: right;
-    font-size: 3em;
-    line-height: 1;
+    font-size: 2.1em;
+    line-height: 0.8;
     color: #fff;
   }
   .app-mob-qr {
     width: 4em;
+
   }
   .app-mob-apple {
-    margin-bottom: 0.5em;
+    margin-bottom: 0em;
+    max-width: 4em;
+
   }
   .app-mob-google {
+      max-width: 4em;
   }
   .app-mob-disponivel {
     font-family: AvenirLTSHeavy;
@@ -337,11 +347,12 @@
     line-height: 1;
     color: #fff;
     align-self: end;
+    margin-bottom: 0px;
   }
   .app-mob-row2 {
     font-family: AvenirLTSLight;
     text-align: left;
-    font-size: 1em;
+    font-size: 0.8em;
     line-height: 1;
     color: #fff;
     align-self: end;
@@ -352,11 +363,12 @@
     width: 60%;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
+    max-height: 0.1em;
   }
   .app-mob-row3 {
     font-family: AvenirLTSHeavy;
     text-align: left;
-    font-size: 2em;
+    font-size: 1.8em;
     line-height: 1;
     color: #fff;
   }
@@ -379,7 +391,7 @@
   }
   .app-mob-row6 {
     font-family: AvenirLTSHeavy;
-    text-align: left;
+    text-align: center;
     font-size: 2.2em;
     line-height: 1;
     color: #fff;
@@ -395,7 +407,7 @@
   .app-mob-row7-col1-texto {
     font-family: AvenirLTSHeavy;
     text-align: right;
-    font-size: 1.2em;
+    font-size: 0.8em;
     line-height: 1;
     color: #fff;
     border-right: 3px solid #c1c1c182;
@@ -404,7 +416,7 @@
   .app-mob-email {
     font-family: AvenirLTSLight;
     text-align: left;
-    font-size: 1;
+    font-size: 0.8em;
     line-height: 1;
     color: #fff !important;
     align-self: end;
@@ -412,7 +424,7 @@
   .app-mob-telefone {
     font-family: AvenirLTSLight;
     text-align: left;
-    font-size: 1em;
+    font-size: 0.8em;
     line-height: 1;
     color: #fff !important;
     align-self: end;
