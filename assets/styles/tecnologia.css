@@ -1,7 +1,7 @@
 .desk-main-wrap {
   display: flex;
   justify-items: center;
-  background-image: url(../../images/tecnologia/tecnologia-meio-com-icones.png);
+  background-image: url(../../images/tecnologia/tecnologia.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -112,12 +112,115 @@
   .mob-main-wrap {
     display: flex;
     justify-items: center;
-    background-image: url(../../images/tecnologia/imagem-com-frase.png);
+    background-image: url(../../images/tecnologia/smartphone-icones-circulo-verde.png);
     background-size: contain;
     background-repeat: no-repeat;
     flex-direction: column;
-    min-height: 25em;
+    min-height: 30em;
+    margin-top: 15em;
   }
+}
+
+
+
+.mob-tech-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: -10em;
+}
+.mob-tech-row1 {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  font-size: 0.9em;
+  color: #fff;
+  margin-top: -3em;
+  align-self: center;
+  line-height: 1;
+  justify-content: unset;
+  font-family: AvenirLTSHeavy;
+  width: 100%;
+  padding-right: 2em;
+  padding-left: 2em;
+}
+.mob-tech-row1-col1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.mob-tech-row1-col2 {
+  display: flex;
+  width: 50%;
+}
+.mob-tech-row2 {
+  font-family: AvenirLTSHeavy;
+  text-align: left;
+  font-size: 2em;
+  line-height: 1;
+  color: #fff;
+  margin-top: 1em;
+  margin-bottom: 0em;
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+}
+.mob-tech-row3 {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  /* padding-left: 6em; */
+  /* margin-left: 1em; */
+  width: 80%;
+  magin-top: 0em;
+}
+.mob-tech-row3-col1 {
+  display: flex;
+  flex-direction: column;
+}
+.mob-tech-row3-col2 {
+  display: flex;
+}
+.mob-tech-row3-col3 {
+  display: flex;
+}
+.mob-tech-row3-col4 {
+  display: flex;
+  /* padding-left: 1em; */
+  flex-direction: column;
+}
+.mob-row3-icon {
+  width: 4.5em;
+  height: 4.5em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+.mob-tech-row3-col4-text {
+  display: flex;
+  font-family: AvenirLTSHeavy;
+  text-align: left;
+  font-size: 1em;
+  line-height: 1;
+  color: #fff;
+  text-transform: uppercase;
+  align-items: flex-start;
+  width: 80%;
+  padding-left: 2em;
+}
+.mob-tech-row4 {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5em;
+  font-size: 1em;
+  padding-right: 1em;
+  margin-top: 6em;
+}
+.mob-tech-row4-text {
+  font-family: AvenirLTSHeavy;
+  text-align: left;
+  font-size: 0.9em;
+  line-height: 1;
+  color: #fff;
+  width: 96%;
+  padding-left: 2em;
 }
 @media (max-width: 1199.98px) {
 

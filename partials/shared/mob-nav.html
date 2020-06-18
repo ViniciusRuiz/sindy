@@ -1,8 +1,13 @@
 <div class="mob-hero-wrapper">
   <div class="container">
 <div class="mob-nav-flex-wrapper">
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color: transparent !important;">
+ <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light mob_sindy_nav"  id="mobnav">
+  <!-- <nav class="navbar navbar-expand-md fixed-top bg-dark navbar-dark">
+ -->
    <div class="container">
+    <a class="navbar-brand mob_hidden" href="/" id="mobnavlogo">
+      <img class="moblogo" src="{{shared.logomenu}}" />
+  </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -36,6 +41,7 @@
 </div>
 </div>
 </div>
+
 <script>
   $(function(){ 
      var navMain = $(".navbar-collapse");
@@ -44,4 +50,19 @@
          navMain.collapse('hide');
      });
  });
+</script>
+<script>
+  $(function(){
+    window.addEventListener("scroll", function () {
+     var nav = document.getElementById("mobnav");
+     var moblogo = document.getElementById("mobnavlogo");
+    if (window.scrollY > 15) { 
+    nav.classList.remove("mob_sindy_nav");
+    moblogo.classList.remove("mob_hidden")
+  }    else{
+     nav.classList.add("mob_sindy_nav");
+     moblogo.classList.add("mob_hidden") 
+  }
+  });
+  });
 </script>

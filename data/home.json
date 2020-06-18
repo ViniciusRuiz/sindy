@@ -1,0 +1,30 @@
+[
+    {
+        "row1": "Tudo",
+        "row2": "que o seu",
+        "row3": "condomínio",
+        "row4": "precisa",
+        "row5": "em alguns",
+        "row6": "cliques",
+        "slide1icon": "images/home/icone-cotas.png",
+        "slide1alt": "Gestão das contas do dia-a-dia",
+        "slide1text": "Gestão <br>de contas<br>do dia-a-dia",
+        "slide2icon": "images/home/icone-camera.png",
+        "slide2alt": "Cameras de segurança",
+        "slide2text": "Câmeras <br>de segurança<br>em tempo real",
+        "slide3icon": "images/home/icone-reconhecimento-facial.png",
+        "slide3alt": "Reconhecimento facial",
+        "slide3text": "Reconhecimento <br>facial para<br>acesso ao<br>condomínio",
+        "slide4icon": "images/home/icone-cadastro-rapido.png",
+        "slide4alt": "Cadastro rápido",
+        "slide4text": "Cadastro <br>rápido<br>para convidados<br>e prestadores",
+        "slide5icon": "images/home/icone-reserva-online.png",
+        "slide5alt": "Reserva online",
+        "slide5text": "Reserva <br>online de<br>churrasqueiras,<br>quadras e salão<br>de festas",
+        "slide6icon": "images/home/icone-info-comunicados.png",
+        "slide6alt": "Informações úteis",
+        "slide6text": "Informações<br>úteis e<br>comunicados",
+        "deskbg": "../images/home/sindy-home-desktop.png",
+        "mobbg": "../images/home/img-main-mob.png"
+    }
+]

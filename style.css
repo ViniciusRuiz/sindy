@@ -79,6 +79,50 @@ body {
   color: #ffffff;
 }
 
+.navbar-light.mob_sindy_nav .navbar-toggler-icon {
+  background-image: url(images/shared/menu.png) !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(images/shared/menu-color.png) !important;
+}
+
+.navbar-light.mob_sindy_nav .navbar-toggler {
+  color: transparent;
+  border-color: transparent;
+  padding-right: 1.5em;
+}
+
+.navbar-light.mob_sindy_nav#mobnav {
+  background-color: transparent !important;
+}
+
+.navbar-light#mobnav {
+  background-color: #ffffffde !important;
+  width: 97%;
+align-self: center;
+display: flex;
+margin: auto;
+    margin-top: auto;
+margin-top: 0.2em;
+
+}
+
+.navbar-light .navbar-toggler {
+  color: transparent;
+  border-color: transparent;
+  padding-right: 2em;
+}
+
+.moblogo {
+  width: 5em;
+}
+
+.mob_hidden {
+  visibility: hidden;
+  display: none;
+} 
+
 .nav-link {
   font-family: 'GothamRounded';
   font-weight: 400;
@@ -192,7 +236,7 @@ body {
 
 
 @media (max-width: 991.98px) { 
-  .navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
+  .navbar-expand-lg.mob_sindy_nav>.container, .navbar-expand-lg>.container-fluid {
     justify-content: flex-end !important;
    }
    .mob-hero-wrapper {
@@ -203,7 +247,7 @@ body {
      height: 15em;
      display: flex;
      flex-direction: column;
-     padding-top: 1em;
+     padding-top: 2em;
    }
    .mob-nav-flex-wrapper {
      display: flex;
@@ -216,6 +260,9 @@ body {
     width: 78vw;
     text-align: center;
     padding-bottom: 2em;
+   }
+   .mob_sindy_nav {
+     background-color:  transparent !important;
    }
    .mob-hero-top-content {
      display: flex;
@@ -257,7 +304,6 @@ body {
 
 
 }
-
 
 @media (max-width: 1199.98px) {
 

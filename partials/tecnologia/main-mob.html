@@ -1,5 +1,30 @@
 <div class="container mob-home-container">
   <section class="mob-main-wrap">
-    
+    <div class="mob-tech-content-wrapper">
+      <div class="mob-tech-row1">
+        <div class="mob-tech-row1-col1">
+          <p class="mob-tech-row1-col1-text">{{tecnologia.row1col1top}}</p><br>
+          <p class="mob-tech-row1-col1-text">{{tecnologia.row1col1bottom}}</p>
+          <p class="mob-tech-row1-col2-text">{{tecnologia.row1col2}}</p>
+        </div>
+      </div>
+      <div class="mob-tech-row2"> 
+          <p class="mob-tech-row2-text">{{tecnologia.row2}}</p>
+      </div>
+      <div class="mob-tech-row3">
+        <div class="mob-tech-row3-col1">
+            <img src="images/tecnologia/contas.png" alt="" class="mob-row3-icon">
+            <img src="images/tecnologia/boletos.png" alt="" class="mob-row3-icon">
+            <img src="images/tecnologia/cameras.png" alt="" class="mob-row3-icon">
+        </div>
+        <div class="mob-tech-row3-col4">
+          <p class="mob-tech-row3-col4-text" ng-bind-html="tecnologia.row3col4 | trustAsHtml"></p>
+          <br>
+          <p class="mob-tech-row4-text">{{tecnologia.row4}}</p>
+        </div>
+      </div>
+      <div class="mob-tech-row4">
+      </div>
+    </div>
   </section>
 </div>
