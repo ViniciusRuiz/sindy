@@ -19,7 +19,7 @@
   .col-celular-sobre{
       display: flex;
     justify-items:center;
-      background-image: url(../../images/sobre/cel-sobre-teste.png);
+      background-image: url(../../images/sobre/cel-sobre.png);
       background-size: contain;
     background-repeat: no-repeat;
     min-height: 100%;
@@ -56,28 +56,29 @@
     padding-top: unset;
     padding-bottom: 3em;
     }
+
   .col-main-text {
     font-family: AvenirLTSHeavy;
     text-align: left;
-    font-size: 2.7em;
+    font-size: calc(1.3em + 1vw);
     line-height: 1;
     color: #fff;
-    margin-left: 1em;
-margin-top: 2em;
+    margin-left: calc(35px + 1vw);
+    margin-top: calc(80px + 1vw);
   }
 
   .col-subtitle-text {
     font-family: AvenirLTSHeavy;
     text-align: left;
-    font-size: 1.3em;
+    font-size: calc(0.7em + 0.5vw);
     line-height: 1.2;
     color: #fff;
     width: 14em;
-padding-left: 2.2em;
+    padding-left: calc(50px + 0.5vw);
 }
   
   
-  @media (max-width: 991.98px) { 
+  @media (min-width: 768px) and (max-width: 991.98px) { 
     .main-text-wrap {
       display: flex;
       justify-content: flex-start;
@@ -94,7 +95,7 @@ padding-left: 2.2em;
       
       
       .col-main-text {
-        font-size: 2.5em;
+        font-size: calc(8px + 2vw);
       }
 
 /* sobre.css | http://localhost:8080/assets/styles/sobre.css */
@@ -253,7 +254,7 @@ padding-left: 2.2em;
           padding-top: 0.5em;
       }
     }
-    @media (max-width: 1199.98px) {
+    @media (min-width: 992px) and (max-width: 1199.98px) {
         .main-text-1 {
           width: 71%;
           padding-top: 0em;
@@ -261,7 +262,7 @@ padding-left: 2.2em;
         }
       
       .col-main-text {
-        font-size: 2.5em;
+        font-size: calc(1.5em + 0.5vw);
       }
       .desk-sobre-icon-wrap {
         /* min-width: 26em; */
