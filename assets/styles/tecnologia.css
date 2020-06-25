@@ -1,7 +1,6 @@
 .desk-main-wrap {
   display: flex;
   justify-items: center;
-  background-image: url(../../images/tecnologia/tecnologia.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -15,21 +14,20 @@
   display: flex;
   flex-direction: row;
   text-align: left;
-  font-size: 1em;
+  font-size: 1.2em;
   color: #fff;
   margin-top: 3em;
   align-self: center;
-  line-height: 1;
+  line-height: 1.1;
   justify-content: unset;
   font-family: AvenirLTSHeavy;
-  width: 74%;
+  max-width: 70%;
   padding-right: 1em;
   padding-left: 1em;
 }
 .desk-tech-row1-col1 {
   display: flex;
   flex-direction: column;
-  width: 37%;
 }
 .desk-tech-row1-col2 {
   display: flex;
@@ -41,7 +39,7 @@
   font-size: 2.4em;
   line-height: 0.8;
   color: #fff;
-  margin-top: 3em;
+  margin-top: 1em;
   margin-bottom: 0.5em;
 }
 .desk-tech-row3 {
@@ -82,11 +80,19 @@
 }
 .desk-tech-row4 {
   display: flex;
-  justify-content: flex-end;
-  margin-top: 5em;
-  font-size: 1em;
+  flex-direction: row;
+  text-align: left;
+  font-size: 1.2em;
+  color: #fff;
+  margin-top: 2em;
+  align-self: center;
+  line-height: 1.1;
+  justify-content: unset;
+  font-family: AvenirLTSHeavy;
+  max-width: 70%;
   padding-right: 1em;
-  margin-top: 6em;
+  padding-left: 1em;
+  margin-bottom: 3em;
 }
 .desk-tech-row4-text {
   font-family: AvenirLTSHeavy;
@@ -94,7 +100,6 @@
   font-size: 1em;
   line-height: 1;
   color: #fff;
-  width: 65%;
 }
 
 .desk-main-wrap {
@@ -106,6 +111,10 @@
   min-height: 81vh;
   margin-top: 5em;
   width: 80%;
+}
+
+.card-img-cel{
+    width: 70%;
 }
 
 @media (max-width: 991.98px) {
@@ -230,7 +239,7 @@
 }
 
 .desk-tech-row1-col1 {
-  width: 40%;
+  
 }
 
 .desk-tech-row2 {
