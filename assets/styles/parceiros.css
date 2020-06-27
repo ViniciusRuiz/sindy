@@ -1,7 +1,7 @@
 .desk-main-wrap {
   display: flex;
   justify-items: center;
-  background-image: url(../../images/parceiros/parceiros-smartphone-elipse-verde.png);
+  
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
@@ -38,20 +38,36 @@
 .parceiros-left {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 40%;
   height: 100%;
+  justify-content: center;
 }
 .parceiros-right {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  height: 100%;
+  justify-content: center;
+  
+}
+
+.img-parceiros-right{
+    display: flex;
+    justify-items: center;
+    background-image: url(../../images/parceiros/cel-parceiros.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 45%;
+    margin-left: 5em;
 }
 
 .text-bloco1 {
   margin-top: 1em;
   margin-bottom: 2em;
+  width: 14em;
 }
 .titulo {
+    font-family: AvenirLTSHeavy !important;
   font-weight: bolder;
 }
 .text-bloco3 {
@@ -62,17 +78,15 @@
 }
 
 .text-bloco2 {
-  font-size: 2em !important;
+font-family: AvenirLTSHeavy !important;
+  font-size: 1.8em !important;
   font-weight: bolder;
-  text-align: right !important;
-  width: 10em;
+  text-align: left !important;
+  padding-left: 2em;
+padding-right: 2em;
+line-height: 1.2 !important;
 }
 
-.parceiros-right {
-  width: 48%;
-  height: 100%;
-  padding-top: 10em;
-}
 
 .main-text-1 {
   display: flex;
@@ -84,12 +98,18 @@
 .col-main-text {
   font-family: AvenirLTSLight;
   text-align: left;
-  font-size: 1.2em;
-  line-height: 1;
+  font-size: calc(0.2em + 1vw);
+  line-height: 1.1;
   color: #fff;
 }
 
-@media (max-width: 991.98px) {
+.parceiros-separator {
+  border-bottom: 3px solid #c1c1c182;
+  width: 60%;
+  margin-bottom: 2em;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
   .main-text-1 {
     width: 39%;
     padding-top: 0em;
@@ -97,7 +117,7 @@
   }
 
   .col-main-text {
-    font-size: 2.5em;
+    font-size: calc(0.2em + 1vw);
   }
 
   .mob-main-wrap {
@@ -241,7 +261,7 @@
     padding-top: 0.5em;
   }
 }
-@media (max-width: 1199.98px) {
+@media (min-width: 992px) and (max-width: 1199.98px)  {
   .main-text-1 {
     width: 36%;
     padding-top: 0em;
@@ -249,6 +269,15 @@
   }
 
   .col-main-text {
-    font-size: 1em;
+    font-size: calc(0.5em + 1vw);
   }
+
+  .text-bloco2 {
+    font-family: AvenirLTSHeavy !important;
+    font-size: 1.5em !important;
+    font-weight: bolder;
+    text-align: left !important;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
 }
