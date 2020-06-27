@@ -51,8 +51,8 @@ body {
   background-image: url(images/shared/verde-baixo.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: left;
-  height: 5em;
+  background-position: center;
+  height: 100%;
 }
 .navbar-sindy {
   background-image: url(images/shared/verde-cima.png);
@@ -140,6 +140,8 @@ margin-top: 0.2em;
   padding-top: 1em;
   padding-bottom: 1em;
   height: 5em;
+  padding-left: 15vw;
+  padding-right: 14vw;
 }
 .footer-col {
   display: flex;
@@ -157,7 +159,7 @@ margin-top: 0.2em;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 2em;
+  padding-left: 1em;
   padding-right: 2em;
 }
 .sindy-footer-link-wrap{
@@ -178,7 +180,7 @@ margin-top: 0.2em;
 }
 .small-print {
   font-size: small;
-  text-align: center;
+  text-align: left;
   font-family: GothamRoundedBook;
 }
 .desk-wrapper {
@@ -213,13 +215,9 @@ margin-top: 0.2em;
   font-size: xx-small;
 }
 
-.sindy-footer-wrapper {
-  padding-left: 2vw;
-  padding-right: 12vw;
-}
 
 .footer-wrapper {
-  height: 6em;
+  height: 100%;
 }
 
 
@@ -286,7 +284,7 @@ margin-top: 0.2em;
      background-image: url(images/shared/verde-inferior-mob.png);
      background-size: contain;
      background-repeat: no-repeat;
-     background-position: left;
+     background-position: center;
      height: 5em;
    }
    .mob-footer-wrapper {
@@ -295,11 +293,11 @@ margin-top: 0.2em;
     z-index: 1;
    }
    .mob-footer-col-two {
-     padding-left: 0px;
+     
      padding-right: 0px;
    }
 .mob-small-print {
-  font-size: 6px;
+  font-size: 8px;
 }
 
 
