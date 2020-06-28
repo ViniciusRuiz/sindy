@@ -90,7 +90,7 @@ body {
 .navbar-light.mob_sindy_nav .navbar-toggler {
   color: transparent;
   border-color: transparent;
-  padding-right: 1.5em;
+  
 }
 
 .navbar-light.mob_sindy_nav#mobnav {
@@ -111,7 +111,7 @@ margin-top: 0.2em;
 .navbar-light .navbar-toggler {
   color: transparent;
   border-color: transparent;
-  padding-right: 2em;
+  padding-right: 1.4em;
 }
 
 .moblogo {
@@ -140,8 +140,8 @@ margin-top: 0.2em;
   padding-top: 1em;
   padding-bottom: 1em;
   height: 5em;
-  padding-left: 15vw;
-  padding-right: 14vw;
+  padding-left: 8vw;
+  padding-right: 6vw;
 }
 .footer-col {
   display: flex;
@@ -246,6 +246,7 @@ margin-top: 0.2em;
      display: flex;
      flex-direction: column;
      padding-top: 2em;
+     justify-content: flex-end;
    }
    .mob-nav-flex-wrapper {
      display: flex;
@@ -270,15 +271,18 @@ margin-top: 0.2em;
    .mob-logo {
      display: flex;
      height: 100%;
-     width: 66%;
-     border-bottom: 0.5px solid #c1c1c182;
+     width: 60%;
+     margin-left: 1em;
+   }
+
+   .home-mob-img-verde-menu{
+       padding-bottom: 2em;
    }
    .mob-icons-wrapper {
      flex: 1;
      display: flex;
      flex-direction: column;
-     margin-top: 2em;
-     padding-right: 2em;
+     padding-right: 2.2em;
    }
    .footer-wrapper {
      background-image: url(images/shared/verde-inferior-mob.png);
@@ -297,7 +301,7 @@ margin-top: 0.2em;
      padding-right: 0px;
    }
 .mob-small-print {
-  font-size: 8px;
+  font-size: 7px;
 }
 
 
