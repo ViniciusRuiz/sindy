@@ -196,10 +196,16 @@ height: 170px;
         text-align: center;
         color: #744b9f;
         font-family: AvenirLTSHeavy;
-        font-size: 0.8em;
+        font-size: 0.6em;
         line-height: 1;
         padding-top: 0.5em;
       }
+
+      .carousel-sindy{
+          flex-direction: column;
+          align-items: center;
+      }
+
     }
     @media (max-width: 1199.98px) {
         .main-text-1 {
