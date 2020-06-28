@@ -55,7 +55,7 @@ body {
   height: 100%;
 }
 .navbar-sindy {
-  background-image: url(images/shared/verde-cima.png);
+  
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
@@ -140,8 +140,8 @@ margin-top: 0.2em;
   padding-top: 1em;
   padding-bottom: 1em;
   height: 5em;
-  padding-left: 8vw;
-  padding-right: 6vw;
+  padding-left: 21vw;
+  padding-right: 18vw;
 }
 .footer-col {
   display: flex;
@@ -212,7 +212,7 @@ margin-top: 0.2em;
 
 
 .small-print {
-  font-size: xx-small;
+  font-size: 7px;
 }
 
 
