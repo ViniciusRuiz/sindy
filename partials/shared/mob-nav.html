@@ -1,55 +1,55 @@
 <div class="mob-hero-wrapper">
-  <div class="container home-mob-img-verde-menu">
-<div class="mob-nav-flex-wrapper">
- <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light mob_sindy_nav"  id="mobnav">
-  <!-- <nav class="navbar navbar-expand-md fixed-top bg-dark navbar-dark">
+    <div class="container home-mob-img-verde-menu">
+        <div class="mob-nav-flex-wrapper">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light mob_sindy_nav" id="mobnav">
+                <!-- <nav class="navbar navbar-expand-md fixed-top bg-dark navbar-dark">
  -->
-   <div class="container">
-    <a class="navbar-brand mob_hidden" href="/" id="mobnavlogo">
-      <img class="moblogo" src="{{shared.logomenu}}" />
-  </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="container">
+                    <a class="navbar-brand mob_hidden" href="/" id="mobnavlogo">
+                        <img class="moblogo" src="{{shared.logomenu}}" />
+                    </a>
+                    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto sindy-link-wrap">
-        <li class="nav-item active">
-          <a class="nav-link" href="#/">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#/sobre">sobre</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#/tecnologia">tecnologia</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#/app">o app</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#/parceiros">parceiros</a>
-          </li>
-     
-      </ul>
+    </button> -->
+
+                    <!--  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto sindy-link-wrap">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#/">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#/sobre">sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#/tecnologia">tecnologia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#/app">o app</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#/parceiros">parceiros</a>
+                            </li>
+
+                        </ul>
+                    </div> -->
+                </div>
+            </nav>
+        </div>
+        <div class="mob-hero-top-content">
+            <img class="mob-logo" src="images/shared/sindy-logo-mob.png" />
+            <div ng-include="'partials/shared/mob-top-icons.html'"></div>
+        </div>
     </div>
-    </div>
-  </nav>
-</div>
-<div class="mob-hero-top-content">
-  <img class="mob-logo" src="images/shared/sindy-logo-mob.png" />
-  <div ng-include="'partials/shared/mob-top-icons.html'" ></div>
-</div>
-</div>
 </div>
 
 <script>
-  $(function(){ 
-     var navMain = $(".navbar-collapse");
+    $(function() {
+        var navMain = $(".navbar-collapse");
 
-     navMain.on("click", "a", null, function () {
-         navMain.collapse('hide');
-     });
- });
+        navMain.on("click", "a", null, function() {
+            navMain.collapse('hide');
+        });
+    });
 </script>
 <!--<script>
   $(function(){
